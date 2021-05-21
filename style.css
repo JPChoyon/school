@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #00000061;
+}
+.container{
+    width: 1140px;
+    margin: auto;  
+}
+.top{
+    
+    overflow: hidden;
+}
+.left{
+      float: left;
+    height: 35px;
+    width: 680px;
+}
+.left i {
+     color:blue;
+    margin: 13px;
+}
+.right{
+    float: right;
+    padding: 10px;
+}
+.right i {
+    padding: 0px 20px;
+    color: blue;
+    
+}
+.menucontainer{
+       background: white;
+    overflow: hidden;
+}
+.menu{
+ 
+    overflow: hidden;
+}
+.icon img {
+    width: 65px;
+    float: left; 
+    border-radius: 35px;
+    margin: 0px 30px;
+}
+.menubar ul {
+    float: right;
+}
+.menubar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 21px;
+}
+.menubar ul li a {
+    text-decoration: none;
+    color: black;
+    padding:0px 35px;     
+}
+.menubar ul li:hover a{
+    color: #00000082;
+    transition: 0.3s;   
+}
+.SclImg {
+     width: 100%;
+    height: 650px;
+}
+.SclImg img {   
+    width: 100%;
+    height: 650px;
+   background-repeat: no-repeat;
+    margin: auto;
+}
+.teacher{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;  
+}
+.tcrbox {
+    width: 290px;
+    display: inline-block;
+    float: left;
+    margin: 10px 40px;
+    position: relative;
+}
+.tcrbox img {
+    width: 85%;
+    height:180px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+.tcrinfo{
+    position: absolute;
+    top: 41%;
+    left: 31%;
+    opacity: 0;
+    display: block;
+    width: 100%;
+}
+.tcrinfo h2{
+    color: white;
+    line-height: 35px;
+    
+}
+.tcrinfo p{
+    color: red;
+    font-size: 13px;
+    display: block;
+} 
+.tcrbox:hover img {
+    opacity: 0.5;
+    transition: .5s ease;
+}
+.tcrinfo:hover  {
+    opacity: 1;
+    transition: .5s ease;
+}
+.result{
+    display: block;
+    margin: auto;
+    width: 650px;
+}
+.result h1{
+    display: block;
+    text-align: center;
+}
+iframe {
+    width: 104%;
+    height: 585px;
+}
+footer{
+    background: black;
+    height: 80px;
+}
+.copy{
+    display: block;
+    
+}
+.copy {
+    color: #ffffff70;
+    display: block;
+    margin: auto;
+    padding-left: 330px;
+    padding-top: 29px;
+}
+
+
+   
+    
